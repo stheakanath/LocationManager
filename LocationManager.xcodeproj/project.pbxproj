@@ -23,6 +23,7 @@
 		EB7D377517720C9200D331C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7D375017720C9200D331C7 /* Foundation.framework */; };
 		EB7D377D17720C9200D331C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB7D377B17720C9200D331C7 /* InfoPlist.strings */; };
 		EB7D378017720C9200D331C7 /* LocationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7D377F17720C9200D331C7 /* LocationManagerTests.m */; };
+		EB7D378B17720CA400D331C7 /* USLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7D378A17720CA400D331C7 /* USLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		EB7D377C17720C9200D331C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EB7D377E17720C9200D331C7 /* LocationManagerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationManagerTests.h; sourceTree = "<group>"; };
 		EB7D377F17720C9200D331C7 /* LocationManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationManagerTests.m; sourceTree = "<group>"; };
+		EB7D378917720CA400D331C7 /* USLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USLocation.h; sourceTree = "<group>"; };
+		EB7D378A17720CA400D331C7 /* USLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USLocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				EB7D376617720C9200D331C7 /* ViewController.h */,
 				EB7D376717720C9200D331C7 /* ViewController.m */,
 				EB7D376917720C9200D331C7 /* ViewController.xib */,
+				EB7D378917720CA400D331C7 /* USLocation.h */,
+				EB7D378A17720CA400D331C7 /* USLocation.m */,
 				EB7D375517720C9200D331C7 /* Supporting Files */,
 			);
 			path = LocationManager;
@@ -273,6 +278,7 @@
 				EB7D375B17720C9200D331C7 /* main.m in Sources */,
 				EB7D375F17720C9200D331C7 /* AppDelegate.m in Sources */,
 				EB7D376817720C9200D331C7 /* ViewController.m in Sources */,
+				EB7D378B17720CA400D331C7 /* USLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
